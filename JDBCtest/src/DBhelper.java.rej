@@ -1,0 +1,9 @@
+diff a/JDBCtest/src/DBhelper.java b/JDBCtest/src/DBhelper.java	(rejected hunks)
+@@ -13,6 +13,7 @@
+ 	static ComboPooledDataSource ds;
+ 
+ 	public DBhelper(String url, String username, String passwd) throws PropertyVetoException {
++		System.out.println("123");
+ 		this.passwd = passwd;
+ 		this.url = url;
+ 		this.username = username;
