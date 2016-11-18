@@ -14,12 +14,7 @@ public class DBhelper {
 
 	public DBhelper(String url, String username, String passwd) throws PropertyVetoException {
 
-<<<<<<< HEAD
-System.err.println("git_456");
-
-=======
-		System.err.println("git_jwc123");
->>>>>>> origin/master
+String name="git_456"
 		this.passwd = passwd;
 		this.url = url;
 		this.username = username;
