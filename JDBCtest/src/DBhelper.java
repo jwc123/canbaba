@@ -15,6 +15,8 @@ public class DBhelper {
 	public DBhelper(String url, String username, String passwd) throws PropertyVetoException {
 		System.out.println("123");
 		System.out.println("123");
+		System.err.println("2104");
+		System.err.println("2104");
 		this.passwd = passwd;
 		this.url = url;
 		this.username = username;
