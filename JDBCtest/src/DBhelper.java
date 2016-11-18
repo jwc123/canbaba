@@ -13,10 +13,13 @@ public class DBhelper {
 	static ComboPooledDataSource ds;
 
 	public DBhelper(String url, String username, String passwd) throws PropertyVetoException {
+<<<<<<< HEAD
 		System.out.println("123");
 		System.out.println("123");
 		System.err.println("2104");
 		System.err.println("2104");
+=======
+>>>>>>> 12f7852495edf0bf32e2e666efc06e768cf10eb9
 		this.passwd = passwd;
 		this.url = url;
 		this.username = username;
