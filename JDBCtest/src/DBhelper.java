@@ -13,8 +13,6 @@ public class DBhelper {
 	static ComboPooledDataSource ds;
 
 	public DBhelper(String url, String username, String passwd) throws PropertyVetoException {
-		System.out.println("123");
-		System.out.println("123");
 		this.passwd = passwd;
 		this.url = url;
 		this.username = username;
